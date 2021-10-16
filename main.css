@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#e9ebee ;
+}
+#header{
+    width: 100%;
+    height: 75px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom:2px solid rgb(198, 217, 233);
+    background-clip: border-box;
+    position: fixed;
+}
+#header .Logo a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  left: 100px;
+  top: 10px;
+  color: rgba(223, 28, 70, 1);
+  text-decoration: none;
+  position: fixed;
+}
+
+#header .box{
+  margin: 30px auto;
+  width: 300px;
+  height: 50px;
+
+}
+#header .up{
+  margin: -85px 1100px;
+  left: 400px;
+}
+#Menu .Logo1 li a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  top: 90px;
+  left: 50px;
+  margin-left: 65px;
+  font-size: 20px;
+  text-decoration: none;
+  position:static;
+}
+
+#Menu .Logo1 li{
+  margin-bottom: 15px;
+}
+
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  margin: -20px -100px;
+
+  background: white;
+  border: solid rgb(198, 217, 233);
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#Menu .Menu1{
+  width: 220px;
+  height: auto;
+  margin-top: 76px;
+  background-color: white;
+  border-right:2px solid rgb(198, 217, 233);
+}
+#Menu h2,#Menu h3{
+  margin-bottom: 8px;
+  margin-left: 50px;
+}
